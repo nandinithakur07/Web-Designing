@@ -13,7 +13,6 @@
       color: white;
       font-family: Arial, sans-serif;
     }
-
     .traffic-light {
       background: #333;
       padding: 20px;
@@ -23,7 +22,6 @@
       gap: 20px;
       box-shadow: 0 0 10px #000;
     }
-
     .light {
       width: 80px;
       height: 80px;
@@ -32,27 +30,22 @@
       opacity: 0.3;
       transition: 0.3s;
     }
-
     .light.red.active {
       background: red;
       opacity: 1;
     }
-
     .light.yellow.active {
       background: yellow;
       opacity: 1;
     }
-
     .light.green.active {
       background: limegreen;
       opacity: 1;
     }
-
     .controls {
       position: absolute;
       bottom: 30px;
     }
-
     button {
       background: #444;
       color: white;
@@ -62,7 +55,6 @@
       border-radius: 5px;
       cursor: pointer;
     }
-
     button:hover {
       background: #666;
     }
